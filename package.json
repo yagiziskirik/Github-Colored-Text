@@ -1,0 +1,16 @@
+{
+  "name": "github-colored-text",
+  "version": "1.0.0",
+  "description": "Create coloured text for Github readme pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "markdown",
+    "svg"
+  ],
+  "author": "yagiziskirik",
+  "license": "MIT"
+}
