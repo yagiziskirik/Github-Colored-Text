@@ -3,9 +3,7 @@ const createNewText = (color, text, fontSize) => {
          xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <text font-size="${fontSize}" x="10" y="20">
-        <tspan fill="#${color}">${text}</tspan>
-      </text>
+      <text font-size="${fontSize}" fill="#${color}">${text}</text>
     </svg>`;
 
   return t;
