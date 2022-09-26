@@ -13,9 +13,6 @@ const createNewText = (color, text, fontSize) => {
 };
 
 module.exports = (req, res) => {
-  if (err) {
-    return console.log(err);
-  }
   const color = req.query.color || "red";
   const text = req.query.text || "";
   const fontSize = parseInt(req.query.fs) || 16;
