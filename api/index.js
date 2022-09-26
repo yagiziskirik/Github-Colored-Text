@@ -2,10 +2,9 @@ const createNewText = (color, text, fontSize) => {
   let t = `<svg version="1.1"
          xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink"
-         width="100" height="50"
     >
       <text font-size="${fontSize}" x="10" y="20">
-        <tspan fill="${color}">${text}</tspan>
+        <tspan fill="#${color}">${text}</tspan>
       </text>
     </svg>`;
 
@@ -13,7 +12,7 @@ const createNewText = (color, text, fontSize) => {
 };
 
 module.exports = (req, res) => {
-  const color = req.query.color || "red";
+  const color = req.query.color || "ff0000";
   const text = req.query.text || "";
   const fontSize = parseInt(req.query.fs) || 16;
 
