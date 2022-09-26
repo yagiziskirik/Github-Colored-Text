@@ -10,17 +10,17 @@ I wanted to make my Github page ![](https://github-colored-text-fn3z.vercel.app/
 You can use the api like this:
 
 ```
-![API](https://github-colored-text-fn3z.vercel.app?text=YOURTEXTHERE&color=HEXCOLOR&width=TEXTWIDTH&fontsize=FONTSIZE&height=HEIGHT&x=X&y=Y)
+![API](https://github-colored-text-fn3z.vercel.app/api/index.js?text=YOURTEXTHERE&color=HEXCOLOR&width=TEXTWIDTH&fontSize=FONTSIZE&height=HEIGHT&x=X&y=Y)
 ```
 
 ## Customisation
 
 * text: Your word to be colourised (Default: ''). [CHANGE RECOMMENDED]
 * color: Hex color _WITHOUT_ the hashtag (Default: ff0000). [CHANGE RECOMMENDED]
-* fontsize: Font size (Default: 17).
+* fontSize: Font size (Default: 17).
 * width: Width of the text container (Default: 150). [CHANGE RECOMMENDED]
 * height: Height of the text container (Default: fontsize).
 * x: X position of the text (Default: 0).
 * y: Y position of the text (Default: fontsize).
 
-You can do trial-and-error to get the right settings. I believe it is quite useful for your projects.
+You can do trial-and-error to get the right settings. I believe it is quite useful for your projects. And you can also check out my [![Github page](https://github-colored-text-fn3z.vercel.app/api/index.js?text=Github+page&color=c09839&width=79&fontsize=17&height=20.4)](https://github.com/yagiziskirik) for the example usage.
